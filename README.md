@@ -7,5 +7,7 @@ To demonstrate Python programming basics including the following concepts:
 5. Termainal I/O - input() and print()
 6. File input and output - whith open() as 
 7. Built-in functions - str(), len()
-8. Functions, classes, modules
-9. Use of Git and GitHub
+8. Functions and functional programming
+9. classes and object-oriented programming
+10. Modules and packages
+11. Use of Git and GitHub
