@@ -1,0 +1,11 @@
+
+*** Summary Report ***
+
+36 / 12 = 3 
+
+sqrt(4) = 2 
+
+sqrt(64) = 8 
+
+
+You got 3 correct out of 3 questions.
