@@ -148,7 +148,7 @@ class SquaredRoot(Quiz):
         else:
             return s + "? " 
 
-class modular(Quiz):
+class Modular(Quiz):
     
 
     def get_operator(self):
@@ -181,10 +181,6 @@ def supported_operators():
 
 def create_quiz(operator, min_int, max_int):
 
-    def get_operator(self):
-        return "*"
-    
-    
     if operator == "+":
         q = Addition(min_int, max_int)
     elif operator == "-":
@@ -196,7 +192,7 @@ def create_quiz(operator, min_int, max_int):
     elif operator == "$":
         q = SquaredRoot(min_int, max_int)
     elif operator == "%":
-        q = modular(min_int, max_int)
+        q = Modular(min_int, max_int)
     else:
         raise RuntimeError('The system encountered a mysterious operation: {}'.format(operator))
 
